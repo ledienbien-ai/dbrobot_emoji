@@ -21,7 +21,7 @@ Add to your project's `idf_component.yml`:
 
 ```yaml
 dependencies:
-  txp666/dbrobot-emoji-gif-component: "^1.1.1"
+  dbrobot-emoji: "^1.1.1"
 ```
 
 In code:
