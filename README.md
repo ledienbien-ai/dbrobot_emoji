@@ -1,6 +1,6 @@
-# Otto Robot GIF Emoji Component
+# DB-Robot GIF Emoji Component
 
-ESP-IDF component that provides **only the gifs folder** with 6 Otto robot GIF emojis for LVGL.
+ESP-IDF component that provides **only the gifs folder** with 6 DB-Robot GIF emojis for LVGL.
 
 ## Content
 
