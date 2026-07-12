@@ -1,6 +1,6 @@
-# Otto Robot GIF Emoji Component
+# DB_Robot GIF Emoji Component
 
-ESP-IDF component that provides **only the gifs folder** with 6 Otto robot GIF emojis for LVGL.
+ESP-IDF component that provides **only the gifs folder** with 6 DB_Robot GIF emojis for LVGL.
 
 ## Content
 
@@ -20,7 +20,7 @@ Add to your project's `idf_component.yml`:
 
 ```yaml
 dependencies:
-  txp666/dbrobot-emoji-gif-component: "^1.1.1"
+  ledienbien-ai/dbrobot-emoji-gif-component: "^1.1.1"
 ```
 
 In code:
