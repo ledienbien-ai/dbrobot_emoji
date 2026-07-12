@@ -20,19 +20,19 @@ Add to your project's `idf_component.yml`:
 
 ```yaml
 dependencies:
-  txp666/otto-emoji-gif-component: "^1.1.1"
+  txp666/dbrobot-emoji-gif-component: "^1.1.1"
 ```
 
 In code:
 
 ```c
-#include "otto_emoji_gif.h"
+#include "dbrobot_emoji_gif.h"
 
 // Version and count
-printf("Version: %s, Count: %d\n", otto_emoji_gif_get_version(), otto_emoji_gif_get_count());
+printf("Version: %s, Count: %d\n", dbrobot_emoji_gif_get_version(), dbrobot_emoji_gif_get_count());
 
 // Get GIF filename by index (0..5)
-const char *name = otto_emoji_gif_get_name(0);  // "staticstate"
+const char *name = dbrobot_emoji_gif_get_name(0);  // "staticstate"
 ```
 
 Copy the **gifs/** folder to your SPIFFS/image partition or embed the GIF files in your app, then use LVGL to open them (e.g. `lv_gif_set_src()` from file path).
@@ -40,7 +40,7 @@ Copy the **gifs/** folder to your SPIFFS/image partition or embed the GIF files 
 ## Layout
 
 ```
-otto-emoji-gif-component/
+dbrobot-emoji-gif-component/
 ├── idf_component.yml
 ├── CMakeLists.txt
 ├── gifs/           # only content – 6 GIF files
@@ -51,9 +51,9 @@ otto-emoji-gif-component/
 │   ├── buxue.gif
 │   └── anger.gif
 ├── include/
-│   └── otto_emoji_gif.h
+│   └── dbrobot_emoji_gif.h
 └── src/
-    └── otto_emoji_gif.c
+    └── dbrobot_emoji_gif.c
 ```
 
 ## License
