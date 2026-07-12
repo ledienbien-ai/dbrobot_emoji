@@ -11,6 +11,5 @@ files:
   exclude:
     - ".gitignore"
     - ".gitattributes"
-    - "README.md"
     - "CHECKSUMS.json"
     - ".component_hash"
