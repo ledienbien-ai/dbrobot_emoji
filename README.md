@@ -41,7 +41,7 @@ Copy the **gifs/** folder to your SPIFFS/image partition or embed the GIF files 
 ## Layout
 
 ```
-dbrobot-emoji-gif-component/
+dbrobot-emoji/
 ├── idf_component.yml
 ├── CMakeLists.txt
 ├── gifs/           # only content – 26 GIF files
