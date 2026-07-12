@@ -33,7 +33,6 @@ idf_component_register(
         "gifs/kissy.gif"
         "gifs/silly.gif"
         "gifs/relaxed.gif"
-        "gifs/sleepy.gif"
         "gifs/crying.gif"
         "gifs/angry.gif"
         "gifs/surprised.gif"
